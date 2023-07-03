@@ -1,6 +1,11 @@
 function showConfirmation() {
     // Show the confirmation text
-    document.getElementById("confirmationText").style.display = "block";
-    // Prevent form submission (remove this line if you want to submit the form)
+    var confirmationText = document.getElementById("confirmationText");
+    var confirmationText1 = document.getElementById("confirmationText1");
+    
+    // Set the display style to block for both elements
+    confirmationText.style.display = "block";
+    confirmationText1.style.display = "block";
+    
     return false;
   }
